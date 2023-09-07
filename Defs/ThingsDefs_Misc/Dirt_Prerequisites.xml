@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Gravel</defName>
+    <label>gravel</label>
+    <description>Crushed rocks for use in creating new stony dirt</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Gravel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <tradeability>None</tradeability>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>0.1</MarketValue>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+      <Beauty>-12</Beauty>
+      <Mass>1.25</Mass>
+      <ConstructionSpeedFactor>0.8</ConstructionSpeedFactor>
+    </statBases>
+    <thingCategories>
+      <li>DirtMatter</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <minRewardCount>10</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>1</commonality>
+      <appearance>Bricks</appearance>
+      <statOffsets>
+        <WorkToBuild>140</WorkToBuild>
+      </statOffsets>
+      <statFactors>
+        <Flammability>0</Flammability>
+        <WorkToBuild>6.0</WorkToBuild>
+      </statFactors>
+      <stuffAdjective>gravel</stuffAdjective>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>DirtBase</defName>
+    <label>dirt</label>
+    <description>Crushed rocks for use in creating new stony dirt</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Dirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <tradeability>None</tradeability>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <Mass>1.25</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>0.1</MarketValue>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+      <Beauty>-12</Beauty>
+      <ConstructionSpeedFactor>0.8</ConstructionSpeedFactor>
+    </statBases>
+    <thingCategories>
+      <li>DirtMatter</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <minRewardCount>10</minRewardCount>
+    <stuffProps>
+      <appearance>Bricks</appearance>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>1</commonality>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statOffsets>
+        <WorkToBuild>140</WorkToBuild>
+      </statOffsets>
+      <statFactors>
+        <BedRestEffectiveness>0.9</BedRestEffectiveness>
+        <DoorOpenSpeed>0.45</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+        <MaxHitPoints>1.8</MaxHitPoints>
+        <MeleeWeapon_CooldownMultiplier>1.30</MeleeWeapon_CooldownMultiplier>
+        <WorkToBuild>6.0</WorkToBuild>
+        <WorkToMake>1.3</WorkToMake>
+      </statFactors>
+      <stuffAdjective>dirt base</stuffAdjective>
+    </stuffProps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+</Defs>

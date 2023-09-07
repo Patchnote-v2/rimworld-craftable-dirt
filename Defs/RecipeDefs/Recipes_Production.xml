@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="MakeGravelBase" Abstract="True">
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <jobString>Crushing stone into gravel.</jobString>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="MakeGravelBase">
+    <defName>Make_Gravel</defName>
+    <label>make gravel</label>
+    <description>Crushes rock chunks into gravel.</description>
+    <products>
+      <Gravel>1</Gravel>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Make_DirtBase</defName>
+    <label>make dirt base</label>
+    <description>Crushes gravel further into dirt.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gravel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gravel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <jobString>Crushing gravel into dirt base.</jobString>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <products>
+      <DirtBase>1</DirtBase>
+    </products>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<TerrainDef ParentName="NaturalTerrainBase">
+    <defName>GravelCraftable</defName>
+    <label>stony soil</label>
+    <description>A test craftable floor.</description>
+    <texturePath>Terrain/Surfaces/Gravel</texturePath>
+    <pollutedTexturePath>Terrain/Surfaces/GravelPolluted</pollutedTexturePath>
+    <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+    <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>320</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>2500</WorkToBuild>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0.7</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>gravel</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>GravelInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+  
+    <costList>
+      <Gravel>1</Gravel>
+      <Hay>10</Hay>
+    </costList>
+    <constructEffect>ConstructGravel</constructEffect>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="NaturalTerrainBase">
+    <defName>SoilCraftable</defName>
+    <label>soil</label>
+    <texturePath>Terrain/Surfaces/Soil</texturePath>
+    <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>2500</WorkToBuild>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+    
+    <costList>
+      <DirtBase>1</DirtBase>
+      <Hay>15</Hay>
+    </costList>
+    <constructEffect>ConstructDirt</constructEffect>
+  </TerrainDef>
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Craftable Dirt</name>
+  <author>Patchnote</author>
+  <supportedVersions>
+  <li>1.4</li>
+  </supportedVersions>
+  <modVersion>1.0</modVersion>
+  <packageId>Patchnote.CraftableDirt</packageId>
+  <description>Adds a crafting processing using stone chunks and hay to be able to place stony and regular soil.</description>
+</ModMetaData>
