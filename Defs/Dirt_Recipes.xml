@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <RecipeDef Name="MakeGravelBase" Abstract="True">
+  <RecipeDef>
+    <defName>Make_Gravel</defName>
+    <label>make gravel</label>
+    <description>Crushes rock chunks into gravel.</description>
     <ingredients>
       <li>
         <filter>
@@ -26,13 +29,6 @@
     <recipeUsers>
       <li>TableStonecutter</li>
     </recipeUsers>
-  </RecipeDef>
-
-
-  <RecipeDef ParentName="MakeGravelBase">
-    <defName>Make_Gravel</defName>
-    <label>make gravel</label>
-    <description>Crushes rock chunks into gravel.</description>
     <products>
       <Gravel>1</Gravel>
     </products>
