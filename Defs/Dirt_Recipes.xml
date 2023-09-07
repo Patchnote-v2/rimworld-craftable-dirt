@@ -39,8 +39,8 @@
   </RecipeDef>
   
   <RecipeDef>
-    <defName>Make_DirtBase</defName>
-    <label>make dirt base</label>
+    <defName>Make_Dirt</defName>
+    <label>make dirt</label>
     <description>Crushes gravel further into dirt.</description>
     <ingredients>
       <li>
@@ -57,7 +57,7 @@
         <li>Gravel</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <jobString>Crushing gravel into dirt base.</jobString>
+    <jobString>Crushing gravel into dirt.</jobString>
     <workAmount>2000</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
