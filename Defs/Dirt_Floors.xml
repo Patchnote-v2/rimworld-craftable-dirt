@@ -3,7 +3,7 @@
 <TerrainDef ParentName="NaturalTerrainBase">
     <defName>GravelCraftable</defName>
     <label>stony soil</label>
-    <description>A test craftable floor.</description>
+    <description>A constructable permanent version of stony soil.</description>
     <texturePath>Terrain/Surfaces/Gravel</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/GravelPolluted</pollutedTexturePath>
     <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
@@ -53,6 +53,7 @@
   <TerrainDef ParentName="NaturalTerrainBase">
     <defName>SoilCraftable</defName>
     <label>soil</label>
+    <description>A constructable permanent version of soil.</description>
     <texturePath>Terrain/Surfaces/Soil</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath>
     <edgeType>FadeRough</edgeType>
