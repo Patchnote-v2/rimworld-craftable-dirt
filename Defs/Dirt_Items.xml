@@ -31,7 +31,7 @@
       <commonality>1</commonality>
       <appearance>Bricks</appearance>
       <statOffsets>
-        <WorkToBuild>140</WorkToBuild>
+        <WorkToBuild>160</WorkToBuild>
       </statOffsets>
       <statFactors>
         <Flammability>0</Flammability>
@@ -80,7 +80,7 @@
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <statOffsets>
-        <WorkToBuild>140</WorkToBuild>
+        <WorkToBuild>160</WorkToBuild>
       </statOffsets>
       <statFactors>
         <BedRestEffectiveness>0.9</BedRestEffectiveness>
