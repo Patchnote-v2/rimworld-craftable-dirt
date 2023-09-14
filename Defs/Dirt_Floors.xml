@@ -45,7 +45,7 @@
   
     <costList>
       <Gravel>1</Gravel>
-      <Hay>10</Hay>
+      <Hay>18</Hay>
     </costList>
     <constructEffect>ConstructGravel</constructEffect>
   </TerrainDef>
@@ -93,7 +93,7 @@
     
     <costList>
       <DirtBase>1</DirtBase>
-      <Hay>15</Hay>
+      <Hay>36</Hay>
     </costList>
     <constructEffect>ConstructDirt</constructEffect>
   </TerrainDef>
