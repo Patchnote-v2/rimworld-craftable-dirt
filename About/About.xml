@@ -4,8 +4,9 @@
   <author>Patchnote</author>
   <supportedVersions>
   <li>1.4</li>
+  <li>1.5</li>
   </supportedVersions>
-  <modVersion>1.0.2</modVersion>
+  <modVersion>1.1.0</modVersion>
   <packageId>Patchnote.CraftableDirt</packageId>
   <description>Adds a crafting process using the stonecutter, stone chunks, and hay to be able to place stony and regular soil.</description>
 </ModMetaData>

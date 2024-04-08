@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!-- TODO: split these into a common base class -->
   <SoundDef>
     <defName>Interact_ConstructGravel</defName>  
     <sustain>True</sustain>
@@ -15,6 +16,28 @@
           </li>
         </grains>
         <volumeRange>90~100</volumeRange>
+        <pitchRange>0.9~1.1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+        <sustainIntervalRange>0.7948722~0.7948722</sustainIntervalRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Interact_ConstructDirt</defName>  
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Dirt</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~90</volumeRange>
         <pitchRange>0.9~1.1</pitchRange>
         <sustainLoop>False</sustainLoop>
         <sustainIntervalRange>0.7948722~0.7948722</sustainIntervalRange>
