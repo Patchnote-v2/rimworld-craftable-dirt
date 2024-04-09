@@ -48,6 +48,10 @@
       <Hay>18</Hay>
     </costList>
     <constructEffect>ConstructGravel</constructEffect>
+    
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
   </TerrainDef>
   
   <TerrainDef ParentName="NaturalTerrainBase">
@@ -96,5 +100,9 @@
       <Hay>36</Hay>
     </costList>
     <constructEffect>ConstructDirt</constructEffect>
+    
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
   </TerrainDef>
 </Defs>
