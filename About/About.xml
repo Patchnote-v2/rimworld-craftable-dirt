@@ -6,7 +6,7 @@
   <li>1.4</li>
   <li>1.5</li>
   </supportedVersions>
-  <modVersion>1.1.0</modVersion>
+  <modVersion>1.1.1</modVersion>
   <packageId>Patchnote.CraftableDirt</packageId>
-  <description>Adds a crafting process using the stonecutter, stone chunks, and hay to be able to place stony and regular soil.</description>
+  <description>Upon researching Stonecutting, unlocks converting stone chunks into gravel and dirt, both of which can be combined with hay to create stony and regular soil.</description>
 </ModMetaData>
